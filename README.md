@@ -6,11 +6,11 @@
 
 ## Funcionalidad:
 
-### El objetivo de dicho proyecto es adaptarlo a diversos dispositivos mediante el uso de las consultas de medios (@media), se utilizarón como base las siguientes resoluciones:
+### El objetivo de dicho proyecto es adaptarlo a diversos dispositivos mediante el uso de las consultas de medios (@media), tomando como base las siguientes resoluciones:
 
-1. 1280
-2. 768
-3. 320
+1. 1280 Laptop
+2. 768 Ipad
+3. 320 Telefonos móviles
 
 ## Técnicas:
 
