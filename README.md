@@ -17,7 +17,7 @@
 
 ## Técnicas:
 
-## Se tomo como base el editor gráfico FIGMA para poder obtener las medidas, tipo de fuente y colores, para el posicionamiento se utilizó flexbox y utilizando medidad relativas para el padding y margin. Lo anterior es para lograr el que las medidas coincidan con el diseño del proyecto.
+### Se tomo como base el editor gráfico FIGMA para poder obtener las medidas, tipo de fuente y colores, para el posicionamiento se utilizó flexbox y utilizando medidad relativas para el padding y margin. Lo anterior es para lograr el que las medidas coincidan con el diseño del proyecto.
 
 
 ## Técnologías utilizadas:
