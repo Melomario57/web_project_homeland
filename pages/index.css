@@ -45,16 +45,18 @@ body {
   width: 720px;
   text-align: center;
   margin: 0;
-  padding-top: 3.5%;
-  padding-bottom: 3%;
+  padding-top: 6%;
 }
 
-.places__image {
+.header__image {
+  padding-top: 4.6%;
   width: 984px;
   height: 615px;
 }
 .places {
-  margin-left: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .places__title {
   width: 830px;
@@ -62,6 +64,8 @@ body {
   font-size: 54px;
   font-weight: 900;
   line-height: 1.15;
+  padding-top: 2.5%;
+  margin-right: 12%;
 }
 .places__subtitle {
   width: 738px;
@@ -69,6 +73,8 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
+  margin-right: 19%;
+  padding-top: 2%;
 }
 
 .places__author {
@@ -79,6 +85,9 @@ body {
   line-height: 1.5;
   display: flex;
   justify-content: flex-end;
+  margin-right: 21.5%;
+  padding-top: 0.5%;
+  margin-top: 0;
 }
 
 .places__paragraph {
@@ -87,11 +96,15 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  margin-right: 20.5%;
+  padding-top: 2%;
 }
 
 .footer {
   display: flex;
   justify-content: center;
+  padding-top: 7%;
+  margin: 0 auto;
 }
 .footer__copyright {
   width: 194px;
@@ -105,10 +118,90 @@ body {
   body {
     background-color: #2a2c2f;
   }
+  .header__image {
+    padding-top: 4.5%;
+    width: 100%;
+  }
+  .header__title {
+    padding-top: 8%;
+    width: 530px;
+  }
+  .header__subtitle {
+    padding-top: 5%;
+  }
+
+  .places__title {
+    padding-top: 3%;
+    width: 635px;
+    font-size: 43px;
+  }
+  .places__subtitle {
+    margin-right: 0%;
+    width: 725px;
+  }
+
+  .places__author {
+    margin-right: 2.5%;
+  }
+
+  .places__paragraph {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
   body {
     background-color: #2a2c2f;
+  }
+  .logo__art {
+    width: 188px;
+  }
+  .header__title {
+    font-size: 40px;
+    width: 228px;
+    height: 88px;
+    padding-top: 5.5%;
+    padding-bottom: 1%;
+  }
+  .header__subtitle {
+    width: 288px;
+    font-size: 16px;
+    padding-top: 5%;
+    height: 40px;
+  }
+  .header__image {
+    height: 200px;
+    width: 100%;
+    padding-top: 10%;
+  }
+  .places__title {
+    width: 280px;
+    font-size: 32px;
+    padding-top: 10%;
+    margin-right: 0;
+  }
+  .places__subtitle {
+    padding-top: 1.5%;
+    width: 288px;
+    line-height: 1.2;
+  }
+
+  .places__author {
+    width: 288px;
+    padding-top: 44%;
+    margin-right: 0;
+  }
+
+  .places__paragraph {
+    width: 288px;
+    padding-top: 1%;
+    margin-right: 0;
+  }
+
+  .footer__copyright {
+    padding-top: 80%;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
   }
 }
