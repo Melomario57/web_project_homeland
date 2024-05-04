@@ -1,0 +1,46 @@
+.places {
+  display: flex;
+  margin-right: 23.5%;
+  flex-direction: column;
+
+  margin-left: 11%;
+}
+.places__title {
+  margin: 0 auto;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.15;
+  padding-top: 9%;
+  margin-right: 12%;
+  width: 830px;
+}
+.places__subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-right: 12%;
+  padding-top: 4.5%;
+  margin: 0;
+  width: 738px;
+}
+
+.places__author {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20%;
+  padding-top: 0.5%;
+  margin-top: 0;
+  width: 732px;
+}
+
+.places__paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-right: 12%;
+  padding-top: 2%;
+  margin: 0;
+  width: 722px;
+}
