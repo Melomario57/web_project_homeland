@@ -79,6 +79,10 @@ body {
     width: 100%;
     padding-top: 10%;
   }
+  .places {
+    padding-top: 21.2%;
+    margin: 0 5.4%;
+  }
 
   .places__title {
     width: 280px;
