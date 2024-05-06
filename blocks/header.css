@@ -25,4 +25,5 @@
 
 .header__image {
   padding-top: 4.6%;
+  object-fit: fill;
 }
