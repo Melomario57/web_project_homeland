@@ -1,5 +1,5 @@
 .page {
-  max-width: 1280px;
+  background-color: #2a2c2f;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.15;
@@ -9,3 +9,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+/* Habia quitado el max width: 1280px; y el body con fondo de color gris */

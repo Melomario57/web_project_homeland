@@ -44,3 +44,64 @@
   margin: 0;
   width: 722px;
 }
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin-right: 0;
+    margin-left: 3%;
+  }
+  .places__title {
+    padding-top: 10.5%;
+    margin-right: 0;
+    font-size: 50px;
+    margin-left: 0;
+    width: 700px;
+  }
+  .places__subtitle {
+    margin-right: 0%;
+    width: 725px;
+    padding-top: 6%;
+  }
+
+  .places__author {
+    margin-right: 3.5%;
+  }
+
+  .places__paragraph {
+    margin-right: 0;
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding-top: 8.5%;
+    margin: 0 5.4%;
+    margin-left: 7%;
+  }
+
+  .places__title {
+    width: 280px;
+    font-size: 32px;
+    padding-top: 10%;
+    margin-left: 0;
+  }
+  .places__subtitle {
+    padding-top: 12%;
+    width: 288px;
+    line-height: 1.2;
+  }
+
+  .places__author {
+    width: 288px;
+    padding-top: 8.5%;
+    margin-right: 0;
+    font-size: 24px;
+  }
+
+  .places__paragraph {
+    width: 288px;
+    padding-top: 1%;
+    margin-right: 0;
+  }
+}
