@@ -5,9 +5,9 @@
   line-height: 1.15;
   font-family: "Inter", Arial, sans-serif;
   color: white;
+  display: flex;
+  flex-direction: column;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-
-/* Habia quitado el max width: 1280px; y el body con fondo de color gris */

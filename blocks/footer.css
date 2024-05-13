@@ -16,10 +16,10 @@
   }
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
   .footer {
     padding-top: 15%;
-    margin-right: 0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
   }

@@ -1,18 +1,16 @@
 .places {
   display: flex;
-  margin-right: 23.5%;
+  margin-left: 11.5%;
   flex-direction: column;
-
-  margin-left: 11%;
+  margin-right: 24%;
 }
 .places__title {
-  margin: 0 auto;
+  margin: 0;
   font-size: 54px;
   font-weight: 900;
   line-height: 1.15;
   padding-top: 9%;
-  margin-right: 12%;
-  width: 830px;
+  max-width: 830px;
 }
 .places__subtitle {
   font-size: 24px;
@@ -20,8 +18,7 @@
   line-height: 1.5;
   margin-right: 12%;
   padding-top: 4.5%;
-  margin: 0;
-  width: 738px;
+  max-width: 738px;
 }
 
 .places__author {
@@ -30,46 +27,47 @@
   line-height: 1.5;
   display: flex;
   justify-content: flex-end;
-  margin-right: 20%;
+  margin-right: 11.5%;
   padding-top: 0.5%;
   margin-top: 0;
-  width: 732px;
+  max-width: 732px;
 }
 
 .places__paragraph {
   font-size: 16px;
   line-height: 1.5;
-  margin-right: 12%;
+  margin-right: 11.5%;
   padding-top: 2%;
   margin: 0;
-  width: 722px;
+  max-width: 722px;
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    margin-right: 0;
-    margin-left: 3%;
+    margin: 0;
+    margin-left: 4%;
   }
   .places__title {
     padding-top: 10.5%;
-    margin-right: 0;
+    margin: 0;
     font-size: 50px;
     margin-left: 0;
-    width: 700px;
+    max-width: 700px;
   }
   .places__subtitle {
     margin-right: 0%;
-    width: 725px;
+    max-width: 725px;
     padding-top: 6%;
   }
 
   .places__author {
     margin-right: 3.5%;
+    max-width: 720px;
   }
 
   .places__paragraph {
     margin-right: 0;
-    width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -81,26 +79,26 @@
   }
 
   .places__title {
-    width: 280px;
+    max-width: 280px;
     font-size: 32px;
     padding-top: 10%;
     margin-left: 0;
   }
   .places__subtitle {
     padding-top: 12%;
-    width: 288px;
+    max-width: 288px;
     line-height: 1.2;
   }
 
   .places__author {
-    width: 288px;
+    max-width: 288px;
     padding-top: 8.5%;
     margin-right: 0;
     font-size: 24px;
   }
 
   .places__paragraph {
-    width: 288px;
+    max-width: 288px;
     padding-top: 1%;
     margin-right: 0;
   }
