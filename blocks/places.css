@@ -1,10 +1,10 @@
-.places {
+.natal {
   display: flex;
   margin-left: 11.5%;
   flex-direction: column;
   margin-right: 24%;
 }
-.places__title {
+.natal__title {
   margin: 0;
   font-size: 54px;
   font-weight: 900;
@@ -12,7 +12,7 @@
   padding-top: 9%;
   max-width: 830px;
 }
-.places__subtitle {
+.natal__subtitle {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
@@ -21,7 +21,7 @@
   max-width: 738px;
 }
 
-.places__author {
+.natal__author {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
@@ -33,7 +33,7 @@
   max-width: 732px;
 }
 
-.places__paragraph {
+.natal__paragraph {
   font-size: 16px;
   line-height: 1.5;
   margin-right: 11.5%;
@@ -43,61 +43,61 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places {
+  .natal {
     margin: 0;
     margin-left: 4%;
   }
-  .places__title {
+  .natal__title {
     padding-top: 10.5%;
     margin: 0;
     font-size: 50px;
     margin-left: 0;
     max-width: 700px;
   }
-  .places__subtitle {
+  .natal__subtitle {
     margin-right: 0%;
     max-width: 725px;
     padding-top: 6%;
   }
 
-  .places__author {
+  .natal__author {
     margin-right: 3.5%;
     max-width: 720px;
   }
 
-  .places__paragraph {
+  .natal__paragraph {
     margin-right: 0;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places {
+  .natal {
     padding-top: 8.5%;
     margin: 0 5.4%;
     margin-left: 7%;
   }
 
-  .places__title {
+  .natal__title {
     max-width: 280px;
     font-size: 32px;
     padding-top: 10%;
     margin-left: 0;
   }
-  .places__subtitle {
+  .natal__subtitle {
     padding-top: 12%;
     max-width: 288px;
     line-height: 1.2;
   }
 
-  .places__author {
+  .natal__author {
     max-width: 288px;
     padding-top: 8.5%;
     margin-right: 0;
     font-size: 24px;
   }
 
-  .places__paragraph {
+  .natal__paragraph {
     max-width: 288px;
     padding-top: 1%;
     margin-right: 0;
