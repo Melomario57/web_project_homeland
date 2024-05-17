@@ -1,105 +1,20 @@
-.natal {
+.places {
   display: flex;
-  margin-left: 11.5%;
   flex-direction: column;
-  margin-right: 24%;
+  padding-left: 10%;
+  align-items: center;
+  padding-bottom: 6%;
+  width: 987px;
 }
-.natal__title {
-  margin: 0;
-  font-size: 54px;
-  font-weight: 900;
-  line-height: 1.15;
-  padding-top: 9%;
-  max-width: 830px;
-}
-.natal__subtitle {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-right: 12%;
-  padding-top: 4.5%;
-  max-width: 738px;
-}
-
-.natal__author {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.5;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 11.5%;
-  padding-top: 0.5%;
-  margin-top: 0;
-  max-width: 732px;
-}
-
-.natal__paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-right: 11.5%;
-  padding-top: 2%;
-  margin: 0;
-  max-width: 722px;
-}
-
-@media screen and (max-width: 768px) {
-  .natal {
-    margin: 0;
-    margin-left: 4%;
-  }
-  .natal__title {
-    padding-top: 10.5%;
-    margin: 0;
-    font-size: 50px;
-    margin-left: 0;
-    max-width: 700px;
-  }
-  .natal__subtitle {
-    margin-right: 0%;
-    max-width: 725px;
-    padding-top: 6%;
-  }
-
-  .natal__author {
-    margin-right: 3.5%;
-    max-width: 720px;
-  }
-
-  .natal__paragraph {
-    margin-right: 0;
-    max-width: 720px;
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .places {
+    width: 720px;
+    padding-left: 4%;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .natal {
-    padding-top: 8.5%;
-    margin: 0 5.4%;
-    margin-left: 7%;
-  }
-
-  .natal__title {
-    max-width: 280px;
-    font-size: 32px;
-    padding-top: 10%;
-    margin-left: 0;
-  }
-  .natal__subtitle {
-    padding-top: 12%;
-    max-width: 288px;
-    line-height: 1.2;
-  }
-
-  .natal__author {
-    max-width: 288px;
-    padding-top: 8.5%;
-    margin-right: 0;
-    font-size: 24px;
-  }
-
-  .natal__paragraph {
-    max-width: 288px;
-    padding-top: 1%;
-    margin-right: 0;
+@media screen and (max-width: 767px) {
+  .places {
+    width: 320px;
   }
 }
