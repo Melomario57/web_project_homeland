@@ -23,7 +23,7 @@
 
 .place__image {
   width: 100%;
-  box-shadow: 10px 10px 25px 0px #00000080;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   grid-area: image;
   height: 460px;
@@ -83,7 +83,6 @@
   .place__image {
     height: 340px;
     width: 340px;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
   .place__website {
     width: 352px;
@@ -120,17 +119,19 @@
   .place__title {
     max-width: 320px;
     font-size: 32px;
+    margin: 0 16px;
   }
   .place__image {
     width: 100%;
-    box-shadow: 10px 10px 25px 0px #00000080;
     height: 320px;
   }
   .place__website {
     width: 288px;
+    margin: 0 16px;
   }
   .place__heading {
     font-size: 12px;
+    margin-top: 0;
   }
 
   .place__artist {
@@ -139,5 +140,6 @@
 
   .place__paragraphs {
     font-size: 16px;
+    margin: 0 16px;
   }
 }
