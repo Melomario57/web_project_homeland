@@ -26,7 +26,9 @@
 
 ## Que se agregará?
 
-### En esta parte se agregarán 2 dos nuevas secciones: photo-grid y places.
+### En esta parte se agregarán 2 dos nuevas secciones: photo-grid, places.
+
+### Se trabajara con dos ramas distintas (una para cada sección) a la principal (main).
 
 ### En la sección photo-grid:
 
@@ -35,6 +37,22 @@
 2. Se implemantarán medidas para que el contendor grid aparezca situado como en el diseño.
 
 3. Se trabajará con propiedades relacionadas que nos permitirán ordenar las imágenes en diferentes resoluciones, por ejemplo: grid-template-columns, grid-template-rows, grid-gap, función repeat() etc.
+
+### En la sección places:
+
+1. Se trabajará con flexbox y grid conjuntamente.
+
+2. Implementar la propiedad box-shadow para las imágenes y botones.
+
+3. Agregar linear-gradient a la propiedad background para aplicar colores degradados a los botones de esta sección.
+
+# Cosas que se aprendío en este proyecto:
+
+1. Entendí mejor la aplicación de box-shadow y linear-gradient a los elementos mencionados anteriormente.
+
+2. Trabajar con distintas ramas, utilizar comandos más abreviados para crearlas directamente, fusionarlas con la rama main y posteriormente eliminarlas.
+
+3. Trabajar con grid de una manera más avanzada, es decir colocar valores diferentes, organizar la cuadrícula de manera más eficientemente mediante la implementación de grid-template-areas y colocar los nombres correspondientes a cada propiedad.
 
 # Imágen de la segunda parte del proyecto:
 
